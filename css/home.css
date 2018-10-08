@@ -1,0 +1,67 @@
+body{
+	display: block;
+}
+.nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: grey;
+}
+
+li a {
+
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.right-item {
+	float: right;
+}
+
+.left {
+	float: left;
+	background-color: #008080;
+	color: #fff;
+	width: 20%;
+	height: 500px;
+	background-image: url(../images/store_manager.jpg);
+	background-repeat: no-repeat;
+	background-size: 300px 200px;
+	background-position: top; 
+}
+
+.sidebar {
+	margin-top: 220px !important;
+}
+
+.list-item {
+	margin-bottom: 15px;
+}
+
+.right {
+	
+	background-color: black;
+	color: #fff;
+	width: 80%
+	height: 500px;
+	margin: 0px !important;
+}
+
+.heading-1{
+	text-align: center;
+}
+
+.image-1 {
+	width: 30%;
+    height: 30%;
+    object-fit: contain;
+}
+
+.images {
+	float: right;
+}
